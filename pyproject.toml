@@ -155,3 +155,13 @@ forbidden_modules = [
   "langextract.prompting",
   "langextract.resolver",
 ]
+
+[dependency-groups]
+dev = [
+    "loguru>=0.7.3",
+    "pytest-asyncio>=1.2.0",
+    "pytest>=8.4.2",
+    "pytest-cov>=7.0.0",
+    "pytest-mock>=3.15.1",
+    "fastapi[standard]>=0.116.2",
+]
